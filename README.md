@@ -7,6 +7,13 @@
 
 &nbsp;
 
+> [!WARNING]
+> **This repository has been archived and is no longer maintained.**
+> 
+> Development of Update Me has stopped, and the app will no longer receive updates or support. I recommend using [**Obtainium**](https://github.com/ImranR98/Obtainium) as an alternative solution for managing app updates for modded apps and apps outside the Play Store.
+
+&nbsp;
+
 <div align="center">
   <img alt="Android" src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Android/android3.svg"/>
   <img alt="React Native" src="https://ziadoua.github.io/m3-Markdown-Badges/badges/ReactNative/reactnative2.svg"/>
