@@ -61,4 +61,4 @@ export interface DownloadItem {
   sha256: string;
 }
 
-export type TabType = 'explore' | 'updates' | 'downloads' | 'tips' | 'settings';
+export type TabType = 'explore' | 'bookmarks' | 'updates' | 'downloads' | 'tips' | 'settings';

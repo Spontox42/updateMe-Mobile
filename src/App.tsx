@@ -3,6 +3,7 @@ import { useAppStore } from './store/useAppStore';
 import { useSettingsStore } from './store/useSettingsStore';
 import { Navbar } from './components/Navbar';
 import { ExploreView } from './components/ExploreView';
+import { BookmarksView } from './components/BookmarksView';
 import { UpdatesView } from './components/UpdatesView';
 import { DownloadsView } from './components/DownloadsView';
 import { TipsView } from './components/TipsView';
@@ -23,6 +24,7 @@ export const App: React.FC = () => {
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         {activeTab === 'explore' && <ExploreView />}
+        {activeTab === 'bookmarks' && <BookmarksView />}
         {activeTab === 'updates' && <UpdatesView />}
         {activeTab === 'downloads' && <DownloadsView />}
         {activeTab === 'tips' && <TipsView />}

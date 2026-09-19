@@ -13,6 +13,7 @@ import {
   ArrowRight,
   Info,
   CheckCircle2,
+  Bookmark,
 } from 'lucide-react';
 import { useAppStore } from '../store/useAppStore';
 import { useInstalledStore } from '../store/useInstalledStore';
@@ -20,7 +21,14 @@ import { useDownloadsStore } from '../store/useDownloadsStore';
 import { IndexAppProviderProps } from '../types';
 
 export const AppDetailModal: React.FC = () => {
-  const { selectedAppTitle, setSelectedAppTitle, index, categories } = useAppStore();
+  const {
+    selectedAppTitle,
+    setSelectedAppTitle,
+    index,
+    categories,
+    isBookmarked,
+    toggleBookmark,
+  } = useAppStore();
   const { installedApps, installApp, updateAppToVersion, uninstallApp } = useInstalledStore();
   const { startDownload, downloads } = useDownloadsStore();
 
@@ -168,13 +176,31 @@ export const AppDetailModal: React.FC = () => {
             </div>
           </div>
 
-          <button
-            id="modal-close-btn"
-            onClick={() => setSelectedAppTitle(null)}
-            className="p-2 rounded-xl text-neutral-400 hover:text-neutral-200 hover:bg-neutral-800 transition-colors"
-          >
-            <X className="w-5 h-5" />
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              id="modal-bookmark-btn"
+              onClick={() => selectedAppTitle && toggleBookmark(selectedAppTitle)}
+              title={selectedAppTitle && isBookmarked(selectedAppTitle) ? 'Remove from bookmarks' : 'Add to bookmarks'}
+              className={`p-2 rounded-xl border flex items-center gap-1.5 text-xs font-semibold transition-all ${
+                selectedAppTitle && isBookmarked(selectedAppTitle)
+                  ? 'bg-amber-500/20 text-amber-400 border-amber-500/40 hover:bg-amber-500/30'
+                  : 'bg-neutral-800 text-neutral-400 border-neutral-700 hover:text-neutral-200 hover:bg-neutral-700/60'
+              }`}
+            >
+              <Bookmark className={`w-4 h-4 ${selectedAppTitle && isBookmarked(selectedAppTitle) ? 'fill-amber-400 text-amber-400' : ''}`} />
+              <span className="hidden sm:inline">
+                {selectedAppTitle && isBookmarked(selectedAppTitle) ? 'Bookmarked' : 'Bookmark'}
+              </span>
+            </button>
+
+            <button
+              id="modal-close-btn"
+              onClick={() => setSelectedAppTitle(null)}
+              className="p-2 rounded-xl text-neutral-400 hover:text-neutral-200 hover:bg-neutral-800 transition-colors"
+            >
+              <X className="w-5 h-5" />
+            </button>
+          </div>
         </div>
 
         {/* Scrollable Content Body */}

@@ -27,21 +27,34 @@ export const ExploreView: React.FC = () => {
       names = names.filter((name) => categoryAppSet.has(name));
     }
 
-    // Filter by Search Query
+    // Filter by Search Query (by app name, category name, features, or providers)
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase().trim();
+
+      // Find all categories matching the query
+      const matchingCategoryApps = new Set<string>();
+      for (const [catName, catData] of Object.entries(categories)) {
+        if (catName.toLowerCase().includes(q)) {
+          catData.apps.forEach((app) => matchingCategoryApps.add(app));
+        }
+      }
+
       names = names.filter((name) => {
+        // Match 1: App name
         if (name.toLowerCase().includes(q)) return true;
+
+        // Match 2: Category name
+        if (matchingCategoryApps.has(name)) return true;
+
+        // Match 3: Features, providers, and package names
         const app = index[name];
         if (!app) return false;
-        // Check features
         if (app.features?.some((f) => f.toLowerCase().includes(q))) return true;
-        // Check providers
         const providerNames = Object.keys(app.providers || {});
         if (providerNames.some((p) => p.toLowerCase().includes(q))) return true;
-        // Check package names
         const packages = Object.values(app.providers || {}).map((p) => p.packageName || '');
         if (packages.some((pkg) => pkg.toLowerCase().includes(q))) return true;
+
         return false;
       });
     }

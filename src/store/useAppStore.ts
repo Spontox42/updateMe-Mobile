@@ -11,6 +11,7 @@ interface AppStoreState {
   isLoading: boolean;
   error: string | null;
   latestAppVersion: { version: string; download: string } | null;
+  bookmarks: string[];
   
   // Actions
   fetchData: () => Promise<void>;
@@ -18,13 +19,25 @@ interface AppStoreState {
   setSearchQuery: (query: string) => void;
   setSelectedAppTitle: (title: string | null) => void;
   setActiveTab: (tab: TabType) => void;
+  toggleBookmark: (appId: string) => void;
+  isBookmarked: (appId: string) => boolean;
+  clearBookmarks: () => void;
 }
 
 const INDEX_URL = 'https://raw.githubusercontent.com/anfreire/updateMe-Data/main/index.json';
 const CATEGORIES_URL = 'https://raw.githubusercontent.com/anfreire/updateMe-Data/main/categories.json';
 const APP_URL = 'https://raw.githubusercontent.com/anfreire/updateMe-Data/main/app.json';
 
-export const useAppStore = create<AppStoreState>((set) => ({
+const getInitialBookmarks = (): string[] => {
+  try {
+    const saved = localStorage.getItem('updateme_bookmarks');
+    return saved ? JSON.parse(saved) : [];
+  } catch {
+    return [];
+  }
+};
+
+export const useAppStore = create<AppStoreState>((set, get) => ({
   index: {},
   categories: {},
   selectedCategory: 'All',
@@ -34,6 +47,7 @@ export const useAppStore = create<AppStoreState>((set) => ({
   isLoading: true,
   error: null,
   latestAppVersion: null,
+  bookmarks: getInitialBookmarks(),
 
   fetchData: async () => {
     set({ isLoading: true, error: null });
@@ -88,4 +102,29 @@ export const useAppStore = create<AppStoreState>((set) => ({
   setSearchQuery: (query: string) => set({ searchQuery: query }),
   setSelectedAppTitle: (title: string | null) => set({ selectedAppTitle: title }),
   setActiveTab: (tab: TabType) => set({ activeTab: tab }),
+
+  toggleBookmark: (appId: string) => {
+    const current = get().bookmarks;
+    const exists = current.includes(appId);
+    const updated = exists ? current.filter((id) => id !== appId) : [...current, appId];
+    try {
+      localStorage.setItem('updateme_bookmarks', JSON.stringify(updated));
+    } catch {
+      // ignore
+    }
+    set({ bookmarks: updated });
+  },
+
+  isBookmarked: (appId: string) => {
+    return get().bookmarks.includes(appId);
+  },
+
+  clearBookmarks: () => {
+    try {
+      localStorage.removeItem('updateme_bookmarks');
+    } catch {
+      // ignore
+    }
+    set({ bookmarks: [] });
+  },
 }));
