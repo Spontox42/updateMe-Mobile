@@ -1,0 +1,6 @@
+{
+  "name": "UpdateMe",
+  "description": "Discover, track, and manage modded and open-source Android apps and updates with multiple provider sources and security verifications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

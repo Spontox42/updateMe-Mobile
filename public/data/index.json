@@ -1,0 +1,2463 @@
+{
+    "HDO": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/hdo.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Complete movie information including IMDB rating, year of release, and cast",
+            "Large catalogue of HD movies and TV shows",
+            "Subtitles support for over 25 languages",
+            "Trending content from various genres",
+            "User-friendly interface"
+        ],
+        "providers": {
+            "HDO": {
+                "source": "https://hdo.app",
+                "version": "2.1.1",
+                "packageName": "com.hdobox",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/hdo_hdo.apk",
+                "safe": true,
+                "sha256": "bce3708dd8417afad1459870133ac4db071c6c2f3d9b964d0dcbbe679c70617a"
+            }
+        }
+    },
+    "YouTube": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/youtube.png",
+        "depends": [
+            "MicroG"
+        ],
+        "complements": [],
+        "features": [
+            "Ad removal",
+            "Advanced quality options",
+            "Continuous playback",
+            "External video downloading",
+            "Minimized playback",
+            "Playback of restricted content"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
+                "version": "20.14.43",
+                "packageName": "app.revanced.android.youtube",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/youtube_revanced.apk",
+                "safe": true,
+                "sha256": "ebc39f153befce10c62440cea12e4dbd44178ba9b5b2000a668ed11a2b934507"
+            },
+            "ReVanced Extended": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
+                "version": "20.05.46",
+                "packageName": "app.rvx.android.youtube",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/youtube_revancedextended.apk",
+                "safe": true,
+                "sha256": "b83215464bc3269937befed35ca67dafb97a635f69aa0995df85b7fa6a30151f"
+            },
+            "ReVanced (2)": {
+                "source": "https://github.com/j-hc/revanced-magisk-module",
+                "version": "20.14.43",
+                "packageName": "app.revanced.android.youtube",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/youtube_revanced2.apk",
+                "safe": true,
+                "sha256": "9fb133a590101bcfdb09c85a12cc159906caee4265832801e0d6c2cc5d54803d"
+            },
+            "ReVanced Extended (2)": {
+                "source": "https://github.com/j-hc/revanced-magisk-module",
+                "version": "19.16.39",
+                "packageName": "app.rvx.android.youtube",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/youtube_revancedextended2.apk",
+                "safe": true,
+                "sha256": "01a248c2cdba89653978f1fd4e294ab683bc6ca5a89d7b384a5b683c6c0f499a"
+            }
+        }
+    },
+    "YouTube Music": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/youtube_music.png",
+        "depends": [
+            "MicroG"
+        ],
+        "complements": [],
+        "features": [
+            "Ad-free music player",
+            "Android Auto support",
+            "Audio codec options",
+            "Background playback"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/j-hc/revanced-magisk-module",
+                "version": "8.10.52",
+                "packageName": "app.revanced.android.apps.youtube.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/youtubemusic_revanced.apk",
+                "safe": true,
+                "sha256": "c004a224f11ce225671464ac9fce81c47a2633686fec605eac0ef7eb4b7b4840"
+            },
+            "ReVanced Extended": {
+                "source": "https://github.com/j-hc/revanced-magisk-module",
+                "version": "8.30.54",
+                "packageName": "app.rvx.android.apps.youtube.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/youtubemusic_revancedextended.apk",
+                "safe": true,
+                "sha256": "266acb92678d40a6e64931e506bce558c4ae079d91abc410306da5e0affec1da"
+            },
+            "ReVanced (2)": {
+                "source": "https://github.com/j-hc/revanced-magisk-module",
+                "version": "8.10.52",
+                "packageName": "app.revanced.android.apps.youtube.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/youtubemusic_revanced2.apk",
+                "safe": true,
+                "sha256": "40b29abe5c9c55e52823927c8f8e2e2de01e378023df2dbbf1994edd1b8f8259"
+            },
+            "ReVanced Extended (2)": {
+                "source": "https://github.com/j-hc/revanced-magisk-module",
+                "version": "7.16.53",
+                "packageName": "app.rvx.android.apps.youtube.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/youtubemusic_revancedextended2.apk",
+                "safe": true,
+                "sha256": "2ebc02025e2569832e22e80a13a82f8f9b4df75174bfade2685674935c20e1d7"
+            }
+        }
+    },
+    "Reddit": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/reddit.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Ad removal",
+            "Additional settings",
+            "Disable screenshot popup",
+            "Hide navigation bar buttons",
+            "Hide r/place button",
+            "Open links in browser",
+            "Remove tracking query parameters",
+            "Skip redirection URLs",
+            "Unlock premium icons"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
+                "version": "2024.17.0",
+                "packageName": "com.reddit.frontpage",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/reddit_revanced.apk",
+                "safe": true,
+                "sha256": "fbb7e0bfc7f35f15e6aa19ebbd30c855c19f39035655aa8403c8c6d14bb4264e"
+            },
+            "ReVanced Extended": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
+                "version": "2025.12.1",
+                "packageName": "com.reddit.frontpage",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/reddit_revancedextended.apk",
+                "safe": true,
+                "sha256": "e4a532f709be2468ae41e375fe4fb8c1877d648a539411e452caa56c6a1695e7"
+            }
+        }
+    },
+    "Twitch": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/twitch.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Access settings for configuration.",
+            "Automatically claim Channel Points.",
+            "Block audio ads for uninterrupted streams.",
+            "Block embedded stream ads for better viewing.",
+            "Block video ads for uninterrupted watching.",
+            "Enable Twitch debugging for troubleshooting.",
+            "View deleted messages behind spoiler."
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
+                "version": "25.3.0",
+                "packageName": "tv.twitch.android.app",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/twitch_revanced.apk",
+                "safe": true,
+                "sha256": "0efbf4da9363f3e77e7150bab4dd8c6ba29b60323826bd03b3af89a14001e826"
+            },
+            "ReVanced (2)": {
+                "source": "https://github.com/j-hc/revanced-magisk-module",
+                "version": "16.9.1",
+                "packageName": "tv.twitch.android.app",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/twitch_revanced2.apk",
+                "safe": true,
+                "sha256": "e62d81068a90b0f3446eb45689ffd89a25a2a06379d7fbd9a3ef7414d1c82aa8"
+            }
+        }
+    },
+    "TikTok": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/tiktok.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Adjust playback speed for all videos from 0.25x to 2.0x",
+            "Customize TikTok video settings",
+            "Download videos in any quality and change default location",
+            "Spoof location and carrier information for regional access",
+            "Use TikTok without logging in",
+            "Watch TikTok videos without ads"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
+                "version": "36.5.4",
+                "packageName": "com.zhiliaoapp.musically",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/tiktok_revanced.apk",
+                "safe": true,
+                "sha256": "697d5c4656dceb755d90b1bf366858c7e66ba6c840cba42c1d80511279f796ac"
+            },
+            "ReVanced (2)": {
+                "source": "https://github.com/j-hc/revanced-magisk-module",
+                "version": "36.5.4",
+                "packageName": "com.zhiliaoapp.musically",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/tiktok_revanced2.apk",
+                "safe": true,
+                "sha256": "d84936c433333dd79e820855d5d1e7e1d458a06af01d32ef9650da29fe03d98d"
+            }
+        }
+    },
+    "MicroG": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/microg.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Run patched Google apps without root",
+            "Operate under a different package name using GmsCore",
+            "Enable GmsCore support for running Google apps",
+            "Minimize changes necessary to upstream"
+        ],
+        "providers": {
+            "TeamVanced": {
+                "source": "https://github.com/ReVanced/GmsCore",
+                "version": "0.3.1.4.240913",
+                "packageName": "app.revanced.android.gms",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/microg_teamvanced.apk",
+                "safe": true,
+                "sha256": "68ea7a4fc95fcb81cb1c1278c11c8da8caba5608ecefb6142461c668282a0545"
+            }
+        }
+    },
+    "Spotify": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/spotify.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Unlocked Next Track",
+            "Unlocked Previous Track",
+            "Unlocked Seeking FWD/BWD",
+            "Unlocked/Able to Select Any Songs & Albums",
+            "Unlocked Repeat All",
+            "Unlocked Shuffle",
+            "Disabled Force Shuffle",
+            "Disabled Audio Ads",
+            "Disabled Video Ads",
+            "Disabled Visual Ads",
+            "Disabled Third-Party Ads"
+        ],
+        "providers": {
+            "xManager": {
+                "source": "https://www.xmanagerapp.com/",
+                "version": "9.0.76.1126",
+                "packageName": "com.spotify.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_xmanager.apk",
+                "safe": true,
+                "sha256": "cabaa8f419cab3c97468dd250c40bac40ec9db9d06c1ef6fce7aff38a21a6ba7"
+            },
+            "xManager (Amoled)": {
+                "source": "https://www.xmanagerapp.com/",
+                "version": "9.0.76.1126",
+                "packageName": "com.spotify.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_xmanageramoled.apk",
+                "safe": true,
+                "sha256": "2860428db34562dea59a2065d4211d30e235ce2a9677fb1946a050a145cdc644"
+            },
+            "xManager (Lite)": {
+                "source": "https://www.xmanagerapp.com/",
+                "version": "1.9.0.72404",
+                "packageName": "com.spotify.lite",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_xmanagerlite.apk",
+                "safe": true,
+                "sha256": "48b00cf37e66f4b146a1441beb1c19e83bc61ee36b57ab077d83049625a62a49"
+            },
+            "xManager (Cloned)": {
+                "source": "https://www.xmanagerapp.com/",
+                "version": "9.0.76.1126",
+                "packageName": "com.spotify.musix",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_xmanagercloned.apk",
+                "safe": true,
+                "sha256": "9459fc78e2f766ce373cbcb2465840eac1851c6ec0570bd3ee88b2e2060ebdf0"
+            },
+            "xManager (Amoled Cloned)": {
+                "source": "https://www.xmanagerapp.com/",
+                "version": "9.0.76.1126",
+                "packageName": "com.spotify.musix",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_xmanageramoledcloned.apk",
+                "safe": true,
+                "sha256": "918b675f853d1537082a3342f1b5c1e721bdc34e88ef2e1cb4ceb2e507651f0d"
+            },
+            "xManager (Experimental)": {
+                "source": "https://www.xmanagerapp.com/",
+                "version": "9.0.30.242",
+                "packageName": "com.spotify.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_xmanagerexperimental.apk",
+                "safe": true,
+                "sha256": "fb16942df9a30925bff1fc5a2c46542fde03128f688a63ba7209299f48d9ff6f"
+            },
+            "xManager (Amoled Experimental)": {
+                "source": "https://www.xmanagerapp.com/",
+                "version": "9.0.30.242",
+                "packageName": "com.spotify.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_xmanageramoledexperimental.apk",
+                "safe": true,
+                "sha256": "4ce74cec24946a6632da35e13dd973e2669ae0bf1066fde7458f690aeb0a9a8c"
+            },
+            "xManager (Experimental Cloned)": {
+                "source": "https://www.xmanagerapp.com/",
+                "version": "9.0.30.242",
+                "packageName": "com.spotify.musix",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_xmanagerexperimentalcloned.apk",
+                "safe": true,
+                "sha256": "da7b98034206632672ea223cc9645a90bb6f5c4c054c91a38b39058fe852bf19"
+            },
+            "xManager (Amoled Experimental Cloned)": {
+                "source": "https://www.xmanagerapp.com/",
+                "version": "9.0.30.242",
+                "packageName": "com.spotify.musix",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_xmanageramoledexperimentalcloned.apk",
+                "safe": true,
+                "sha256": "7cc0928b7adc9fb76ce4efbc12b5271da17d628aff2941ca5e794140894d088e"
+            },
+            "MODYOLO": {
+                "source": "https://modyolo.com/spotify-music-2.html",
+                "version": "9.0.84.1340",
+                "packageName": "com.spotify.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_modyolo.apk",
+                "safe": true,
+                "sha256": "f5ffa48da8edfd46886b47398011be2a698b67aa8ca21a02b4f81aa0e58f3bf8"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/spotify-2.html",
+                "version": "9.0.86.1358",
+                "packageName": "com.spotify.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_liteapks.apk",
+                "safe": true,
+                "sha256": "141428bf21675d34dd21297bb902dc11c779afb6e679d06f4e41b89bac5c7a3e"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/spotify-mod/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/spotify-music.html",
+                "version": "9.0.0.487",
+                "packageName": "com.spotify.music",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/spotify_modzoco.apk",
+                "safe": false,
+                "sha256": "84504cf84825a7c2ecfe9f79253f05cd2697b389698acdedce3806e706865ca0"
+            }
+        }
+    },
+    "Photo Editor Pro": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/photo_editor_pro.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/polish-photo-editor-pro.html",
+                "version": "1.674.229",
+                "packageName": "photo.editor.photoeditor.photoeditorpro",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photoeditorpro_modyolo.apk",
+                "safe": false,
+                "sha256": "b907915981e6e46024f0ff1f356b60c483a16c13374e3b3874548c05c2ec9d67"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/polish-photo-editor-pro.html",
+                "version": "1.68.230",
+                "packageName": "photo.editor.photoeditor.photoeditorpro",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photoeditorpro_liteapks.apk",
+                "safe": false,
+                "sha256": "008b49b549eea5d62134fb562ac45b2b31e7b857381680a0feef927ec24856ca"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/photo-editor-pro-apk",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photoeditorpro_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/photo-editor-pro-polish.html",
+                "version": "1.603.201",
+                "packageName": "photo.editor.photoeditor.photoeditorpro",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photoeditorpro_modzoco.apk",
+                "safe": false,
+                "sha256": "6f5a000ce49f922a14148c0dac02975c29d0e534d0265a601f33091d9efe4b4a"
+            }
+        }
+    },
+    "Photoshop Express": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/photoshop_express.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Unlock Premium Features",
+            "Disable Analytics and Ads"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/photoshop-express-photo-editor.html",
+                "version": "17.7.8",
+                "packageName": "com.adobe.psmobile",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photoshopexpress_modyolo.apk",
+                "safe": true,
+                "sha256": "738507f0c18f97aba37af4f3ec16132fc08fe4779c08749977a1de6488f1018d"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/photoshop-express-photo-editor.html",
+                "version": "17.7.12",
+                "packageName": "com.adobe.psmobile",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photoshopexpress_liteapks.apk",
+                "safe": false,
+                "sha256": "5e1fc0c0f7d10a6bd47289e0bbe19865d26e87faa0065da377f0b9e241b4b82e"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/adobe-photoshop-express/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photoshopexpress_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/photoshop-express-photo-editor.html",
+                "version": "17.1.277",
+                "packageName": "com.adobe.psmobile",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photoshopexpress_modzoco.apk",
+                "safe": false,
+                "sha256": "4f623893e03b236fe25c76aabee4d80175976acb0bab4e0e1c65cb40b372a725"
+            }
+        }
+    },
+    "CapCut": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/capcut.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/capcut-video-editor.html",
+                "version": "15.3.0",
+                "packageName": "com.lemon.lvoverseas",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/capcut_modyolo.apk",
+                "safe": true,
+                "sha256": "2b479da717fe172bf180a8bceb0ceb1d2720e2b025f8faae35853c146176e45d"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/capcut-video-editor.html",
+                "version": "15.3.0",
+                "packageName": "com.lemon.lvoverseas",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/capcut_liteapks.apk",
+                "safe": true,
+                "sha256": "82048ddaffc9174af2cea0b170210627b5da908d2dad86762d6291878fdae740"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/capcut-mod-apk/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/capcut_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/capcut-video-editor.html",
+                "version": "13.5.0",
+                "packageName": "com.lemon.lvoverseas",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/capcut_modzoco.apk",
+                "safe": false,
+                "sha256": "4e27831b0775c617fc83b1c9806e14c213451f884907a84f9211750b68af0275"
+            }
+        }
+    },
+    "InShot": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/inshot.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "LITEAPKS": {
+                "source": "https://liteapks.com/inshot-pro-2.html",
+                "version": "2.161.1509",
+                "packageName": "com.camerasideas.instashot",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/inshot_liteapks.apk",
+                "safe": false,
+                "sha256": "a1085f13d1e9ed2ea8150e87b921f775cd73a960a9d4ce2e682f6dad18d36830"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/inshot",
+                "version": "2.160.1508",
+                "packageName": "com.camerasideas.instashot",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/inshot_apkdone.apk",
+                "safe": false,
+                "sha256": "951feff1af04697d5a59a4e7c1c4a64e85093d5c224f5b887df69de11e4d2144"
+            },
+            "MODYOLO": {
+                "source": "https://modyolo.com/inshot.html",
+                "version": "2.160.1508",
+                "packageName": "com.camerasideas.instashot",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/inshot_modyolo.apk",
+                "safe": false,
+                "sha256": "2884bd88cf87499bee48c9074bdbe32ebb9538685acb0b66f26ca33ce44405ae"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/inshot.html",
+                "version": "2.093.1474",
+                "packageName": "com.camerasideas.instashot",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/inshot_modzoco.apk",
+                "safe": false,
+                "sha256": "0befdafd9ea7f44157e0919147203ab5ae430ac6afd36d550f61c200c89eb003"
+            }
+        }
+    },
+    "Instagram": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/instagram.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Download pictures and videos",
+            "Hide read receipts",
+            "Hide typing indicators",
+            "No ads",
+            "View stories anonymously"
+        ],
+        "providers": {
+            "MyInsta - Clone": {
+                "source": "https://myinsta.app",
+                "version": "364.0.0.35.86",
+                "packageName": "com.myinsta.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/instagram_myinstaclone.apk",
+                "safe": false,
+                "sha256": "00fee927920887983e6e7e261b059f08122bfdcfbffd74ca30e7c0a9ed0a54e5"
+            },
+            "MyInsta - Unclone": {
+                "source": "https://myinsta.app",
+                "version": "364.0.0.35.86",
+                "packageName": "com.instagram.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/instagram_myinstaunclone.apk",
+                "safe": false,
+                "sha256": "e98eb5228b4ae71b7c41dd3b709c6b6dab7bdfc6adb9b379427f785bcaae558c"
+            },
+            "Honinsta": {
+                "source": "https://honista.com/en/",
+                "version": "367.0.0.43.91",
+                "packageName": "cc.honista.app",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/instagram_honinsta.apk",
+                "safe": false,
+                "sha256": "2283b1163edb990a6011fd92a49223ea17a5fb67690c390e2244ba481890f43e"
+            },
+            "Instander - Clone": {
+                "source": "https://thedise.me/instander/",
+                "version": "263.2.0.19.104",
+                "packageName": "com.instander.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/instagram_instanderclone.apk",
+                "safe": true,
+                "sha256": "5a88e6252b04ce54dbc4545b01081860e7c9d3eb6a053b870e327f0329449577"
+            },
+            "Instander - Unclone": {
+                "source": "https://thedise.me/instander/",
+                "version": "263.2.0.19.104",
+                "packageName": "com.instagram.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/instagram_instanderunclone.apk",
+                "safe": true,
+                "sha256": "4227afabe569ff5f4228f2c063cc1d87c1e783e476b46c7698e526b4080d9374"
+            }
+        }
+    },
+    "NewPipe": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/newpipe.png",
+        "depends": [],
+        "complements": [
+            "YouTube",
+            "YouTube Music"
+        ],
+        "features": [
+            "Download audio in various formats and bitrates",
+            "Download videos in various formats and resolutions"
+        ],
+        "providers": {
+            "TeamNewPipe": {
+                "source": "https://github.com/TeamNewPipe/NewPipe",
+                "version": "0.28.0",
+                "packageName": "org.schabi.newpipe",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/newpipe_teamnewpipe.apk",
+                "safe": true,
+                "sha256": "06ea3bab0f56c2cac0a7c471d43e6d0107104c319abb589c894c6b0d47d60ef7"
+            }
+        }
+    },
+    "Seal": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/seal.png",
+        "depends": [],
+        "complements": [
+            "YouTube",
+            "YouTube Music"
+        ],
+        "features": [
+            "Download audio in various formats and bitrates",
+            "Download videos in various formats and resolutions"
+        ],
+        "providers": {
+            "JunkFood02": {
+                "source": "https://github.com/JunkFood02/Seal",
+                "version": "2.0.0-alpha.5",
+                "packageName": "com.junkfood.seal.preview",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/seal_junkfood02.apk",
+                "safe": true,
+                "sha256": "160884a38b48de7534a4ed231097ff21cfc9361a326254cc66319b009f75a871"
+            }
+        }
+    },
+    "Niagara Launcher": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/niagara.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/niagara-launcher.html",
+                "version": "1.14.11",
+                "packageName": "bitpit.launcher",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/niagaralauncher_modyolo.apk",
+                "safe": false,
+                "sha256": "7d2b3bd64d24b5ba243cdf7d44d21930395abfee38d002976e89d321e6931f51"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/niagara-launcher.html",
+                "version": "1.14.11",
+                "packageName": "bitpit.launcher",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/niagaralauncher_liteapks.apk",
+                "safe": false,
+                "sha256": "209f9ba967735d38d9631dedd55d34c0a4fdea235847e11ff1a6d914f5c39001"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/niagara-launcher/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/niagaralauncher_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/niagara-launcher.html",
+                "version": "1.13.3",
+                "packageName": "bitpit.launcher",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/niagaralauncher_modzoco.apk",
+                "safe": true,
+                "sha256": "e442037cdeb0ba74cb88b28c84e2f147f3ed64d7f1806f0f8251d422ceff5d3c"
+            }
+        }
+    },
+    "Smart Launcher 6": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/smart6.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/smart-launcher-6.html",
+                "version": "6.6 build 020",
+                "packageName": "ginlemon.flowerfree",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/smartlauncher6_modyolo.apk",
+                "safe": false,
+                "sha256": "76a698a8a0b4efa5622be97c81c28222b0957bff4ea6a3e2ab98565e58bb01c1"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/smart-launcher-6.html",
+                "version": "6.5 build 049",
+                "packageName": "ginlemon.flowerfree",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/smartlauncher6_liteapks.apk",
+                "safe": false,
+                "sha256": "d0bf5e12dc3395e8bcd1fd0f89393d98116dc21b602891228c8e056e8eca38f6"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/smart-launcher-5/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/smartlauncher6_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/smart-launcher-6.html",
+                "version": "6.5 build 002",
+                "packageName": "ginlemon.flowerfree",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/smartlauncher6_modzoco.apk",
+                "safe": true,
+                "sha256": "a40872651b535f3e5833e712cb4ae7b2cb36c47233d197e557d28d57a2532f45"
+            }
+        }
+    },
+    "ReVanced Manager": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/revancedmanager.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Apply any patch of your choice to Android apps",
+            "ReVanced Patcher that fits in your pocket",
+            "Quickly understand the ins and outs of ReVanced Manager",
+            "Configurable API, custom sources, language, signing keystore, theme and more"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/ReVanced/revanced-manager",
+                "version": "1.26.0-dev.10",
+                "packageName": "app.revanced.manager",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/revancedmanager_revanced.apk",
+                "safe": true,
+                "sha256": "ac5d9bbda12de6391051ae20e565eb095ceece02b3fd844e0eaf6f9942d80825"
+            }
+        }
+    },
+    "YTDLnis": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/ytdlnis.png",
+        "depends": [],
+        "complements": [
+            "YouTube",
+            "YouTube Music"
+        ],
+        "features": [
+            "Download audio in various formats and bitrates",
+            "Download videos in various formats and resolutions"
+        ],
+        "providers": {
+            "deniscerr": {
+                "source": "https://github.com/deniscerri/ytdlnis",
+                "version": "1.8.5",
+                "packageName": "com.deniscerri.ytdl",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/ytdlnis_deniscerr.apk",
+                "safe": true,
+                "sha256": "b894e35115838e3e711f1eb19c0e38747ca4dba3bb7481b7721dc73bd0faade0"
+            }
+        }
+    },
+    "PartyPal": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/partypal.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "5Mod": {
+                "source": "https://5wip-file.ru/download/file/239695.php",
+                "version": "3.2.1",
+                "packageName": "com.williamgjeruldsen.partypalandroid",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/partypal_5mod.apk",
+                "safe": true,
+                "sha256": "650665dddac47f1baf6a34ff95e15879b5fb37e939e6d350cbaf11a0bd7380cc"
+            }
+        }
+    },
+    "Picolo": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/picolo.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "Android Republic": {
+                "source": "https://androidrepublic.org/threads/picolo-drinking-game-v3-0-1-mod-apk.104067/",
+                "version": "2.1.8",
+                "packageName": "com.picolo.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/picolo_androidrepublic.apk",
+                "safe": true,
+                "sha256": "aff289f9efa8b11117f48fe197db9b00fd603f76ef0a3307b58c8eabcd0cae57"
+            }
+        }
+    },
+    "Never Have I Ever": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/neverhaveiever.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "LITEAPKS": {
+                "source": "https://liteapks.com/download/never-have-i-ever-194362",
+                "version": "8.1.5",
+                "packageName": "com.nixgames.neverdid",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/neverhaveiever_liteapks.apk",
+                "safe": true,
+                "sha256": "54a96528e0712450bfa20659f5d64bbcd6b59ba271999a1068ee7767cd833e18"
+            }
+        }
+    },
+    "Borealis": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/borealis.png",
+        "depends": [],
+        "complements": [
+            "Niagara Launcher",
+            "Smart Launcher 6",
+            "Lawnchair"
+        ],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/borealis-1.html",
+                "version": "2.161.0",
+                "packageName": "com.unvoid.borealis",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/borealis_modyolo.apk",
+                "safe": false,
+                "sha256": "a673b2089f9c39cb9400f6d24956aa907c609313f1321ae1a1535bc6a4c396c0"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/borealis-icon-pack.html",
+                "version": "2.181.0",
+                "packageName": "com.unvoid.borealis",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/borealis_liteapks.apk",
+                "safe": true,
+                "sha256": "d04c1de2be3bdc6a06e3001186dd3913bf1dc7fb20826f5e1e60deeffa9bfdb0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/borealis-icon-pack.html",
+                "version": "2.163.0",
+                "packageName": "com.unvoid.borealis",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/borealis_modzoco.apk",
+                "safe": false,
+                "sha256": "4917956d463820c7002f4ef2264e5f5795fffba87c38d77f7d5b6518c92be66c"
+            }
+        }
+    },
+    "Layers": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/layers_icon_pack.png",
+        "depends": [],
+        "complements": [
+            "Niagara Launcher",
+            "Smart Launcher 6",
+            "Lawnchair"
+        ],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/layers-icon-pack.html",
+                "version": "10.7",
+                "packageName": "com.sreerag.layers",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/layers_modyolo.apk",
+                "safe": false,
+                "sha256": "c97827db610bd75f66abd169376f27e63759bee90b9860cdcf203575407f2dd6"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/layers-glass-icon-pack.html",
+                "version": "11.7",
+                "packageName": "com.sreerag.layers",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/layers_liteapks.apk",
+                "safe": true,
+                "sha256": "665aee9286394c23562ff5702d879e5e89e18f49125b356c84db46cf54bdd9e8"
+            }
+        }
+    },
+    "Australis": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/australis.png",
+        "depends": [],
+        "complements": [
+            "Niagara Launcher",
+            "Smart Launcher 6",
+            "Lawnchair"
+        ],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/australis-icon-pack.html",
+                "version": "1.38.0",
+                "packageName": "com.unvoid.australis",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/australis_modyolo.apk",
+                "safe": true,
+                "sha256": "6d901d5782f0523d257f19a6664962823f8ce68eb6c4a4700ad60fd81f818d63"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/australis-icon-pack-2.html",
+                "version": "1.60.0",
+                "packageName": "com.unvoid.australis",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/australis_liteapks.apk",
+                "safe": true,
+                "sha256": "de9f17a753d315b8c968f12f35d1d21d6fc1bcc626410909f77aa2d806dcfa74"
+            }
+        }
+    },
+    "Vera": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/vera.png",
+        "depends": [],
+        "complements": [
+            "Niagara Launcher",
+            "Smart Launcher 6",
+            "Lawnchair"
+        ],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/vera-icon-pack.html",
+                "version": "6.2.2",
+                "packageName": "cs14.pixelperfect.iconpack.vera",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/vera_modyolo.apk",
+                "safe": false,
+                "sha256": "5a73f5537ed1e0be3924168e157720395566c02cca04342ecabcb593a58a3197"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/vera-icon-pack.html",
+                "version": "6.4.1",
+                "packageName": "cs14.pixelperfect.iconpack.vera",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/vera_liteapks.apk",
+                "safe": true,
+                "sha256": "25f24c39ab1bf0c6e563c11a7e0499cdb1d72794133286c7a7292eed3295ef00"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/vera-icon-pack.html",
+                "version": "6.2.5",
+                "packageName": "cs14.pixelperfect.iconpack.vera",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/vera_modzoco.apk",
+                "safe": false,
+                "sha256": "854d5eb33c5a10d907d43ec3065493d601bcb83722414320e406515379bb4c0d"
+            }
+        }
+    },
+    "Linebit": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/linebit.png",
+        "depends": [],
+        "complements": [
+            "Niagara Launcher",
+            "Smart Launcher 6",
+            "Lawnchair"
+        ],
+        "features": [
+            "Disable Analytics and Ads",
+            "Unlock Pro Features"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/linebit-icon-pack.html",
+                "version": "2.0.2",
+                "packageName": "com.edzondm.linebit",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/linebit_modyolo.apk",
+                "safe": false,
+                "sha256": "73ea20be1788c488df911a86067723d47e2333f5c2c5d4669ce575cb2bc18cdc"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/linebit-icon-pack.html",
+                "version": "2.0.6",
+                "packageName": "com.edzondm.linebit",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/linebit_liteapks.apk",
+                "safe": true,
+                "sha256": "9370cbce4a095da329e25edd8260323d9d821ab552719b96c7a1efeeb88da706"
+            }
+        }
+    },
+    "SoundCloud": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/soundcloud.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked",
+            "Ad-free music player"
+        ],
+        "providers": {
+            "APKDONE": {
+                "source": "https://apkdone.com/soundcloud/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/soundcloud_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            }
+        }
+    },
+    "IPTV Pro": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/iptv_pro.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked",
+            "Disable Analytics and Ads"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/iptv-pro.html",
+                "version": "9.1.8",
+                "packageName": "ru.iptvremote.android.iptv.pro",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/iptvpro_modyolo.apk",
+                "safe": false,
+                "sha256": "c2d6ed3d3827ceb137141e64a8e9a9f993d396ee43e964db5b3443ce8290b35e"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/iptv-pro.html",
+                "version": "9.1.10",
+                "packageName": "ru.iptvremote.android.iptv.pro",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/iptvpro_liteapks.apk",
+                "safe": false,
+                "sha256": "56b3a610a912f9befbb1781f8dac8aaa755db3d00bbcd066f98b1038bca8f85f"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/iptv-pro.html",
+                "version": "9.0.1",
+                "packageName": "ru.iptvremote.android.iptv.pro",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/iptvpro_modzoco.apk",
+                "safe": true,
+                "sha256": "35807c8a231f69ebeee3118929edeb80a5124b9d3a4cad30cdfb68ebc2d03896"
+            }
+        }
+    },
+    "Perfect IPTV Player": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/perfect_iptv_player.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked",
+            "Disable Analytics and Ads"
+        ],
+        "providers": {
+            "LITEAPKS": {
+                "source": "https://liteapks.com/perfect-iptv-player.html",
+                "version": "1.2.1",
+                "packageName": "com.leuco.iptv",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/perfectiptvplayer_liteapks.apk",
+                "safe": true,
+                "sha256": "ee5562ea9f703faf65bda99d475c13f1b827ca0b93c19959b81e8d8121944e8a"
+            }
+        }
+    },
+    "Automate": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/automate.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked",
+            "Disable Analytics and Ads"
+        ],
+        "providers": {
+            "LITEAPKS": {
+                "source": "https://liteapks.com/automate.html",
+                "version": "1.48.1",
+                "packageName": "com.llamalab.automate",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/automate_liteapks.apk",
+                "safe": false,
+                "sha256": "26f072d04a9048d2c0e35aca8b64471e715a923f7bfe30fa15a0079a4a40c98b"
+            }
+        }
+    },
+    "Clickmate": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/auto_clicker_macro:_clickmate.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked",
+            "Disable Analytics and Ads"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/auto-clicker-macro-clickmate.html",
+                "version": "6.1.6",
+                "packageName": "com.inscode.autoclicker",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/clickmate_modyolo.apk",
+                "safe": false,
+                "sha256": "02e5e4afa9e7a8b1ee19e10fd68d7df4ed56ee5ebb3b48cf4c2bc0cb0bbb28d0"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/auto-clicker-macro-clickmate.html",
+                "version": "7.1.3",
+                "packageName": "com.inscode.autoclicker",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/clickmate_liteapks.apk",
+                "safe": false,
+                "sha256": "9a42e4041ced3f1ff82eb16b81fd794a43fc43b8761bfa66a07d28a9671f4eee"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/clickmate/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/clickmate_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            }
+        }
+    },
+    "Tasker": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/tasker.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked",
+            "Disable Analytics and Ads"
+        ],
+        "providers": {
+            "LITEAPKS": {
+                "source": "https://liteapks.com/tasker.html",
+                "version": "6.6.3-beta",
+                "packageName": "net.dinglisch.android.taskerm",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/tasker_liteapks.apk",
+                "safe": false,
+                "sha256": "fec97c58a3b62e7a88999ce47b28d0f0206d5d6446e318773db5db494f988876"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/tasker/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/tasker_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            }
+        }
+    },
+    "Xodo": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/xodo.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/xodo-pdf-reader-editor.html",
+                "version": "10.8.1",
+                "packageName": "com.xodo.pdf.reader",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xodo_modyolo.apk",
+                "safe": true,
+                "sha256": "04793f953bb435aa2b23a32c8ec5477ff6fc45e8fe70e7d894d36fd2d035373a"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/xodo-pdf.html",
+                "version": "10.8.1",
+                "packageName": "com.xodo.pdf.reader",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xodo_liteapks.apk",
+                "safe": true,
+                "sha256": "815978ffbd2a53616710d47ab980bc3b449b255ae7522fee7c72f55e6324667d"
+            },
+            "APKDONE": {
+                "source": "https://liteapks.com/xodo-pdf.html",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xodo_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            }
+        }
+    },
+    "Brilliant": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/brilliant.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "APKDONE": {
+                "source": "https://apkdone.com/brilliant/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/brilliant_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            }
+        }
+    },
+    "Musixmatch": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/musixmatch.png",
+        "depends": [],
+        "complements": [
+            "YouTube",
+            "YouTube Music",
+            "Spotify"
+        ],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/musixmatch.html",
+                "version": "8.0.1",
+                "packageName": "com.musixmatch.android.lyrify",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/musixmatch_modyolo.apk",
+                "safe": true,
+                "sha256": "85402a10f5829ae3220087a8bec0bfd40a68419b4b46ee3d0dd92e1fe1592c11"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/musixmatch.html",
+                "version": "8.0.2",
+                "packageName": "com.musixmatch.android.lyrify",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/musixmatch_liteapks.apk",
+                "safe": true,
+                "sha256": "33ef6b0ba624516be0d854ab9f05541184d142f92777435b8fbabddab159ef1d"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/musixmatch/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/musixmatch_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/musixmatch-lyrics-finder.html",
+                "version": "7.13.6",
+                "packageName": "com.musixmatch.android.lyrify",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/musixmatch_modzoco.apk",
+                "safe": true,
+                "sha256": "785e43e80dfa1240967836296198455ca0c01f29ba9acfe1cd45241a7086059d"
+            }
+        }
+    },
+    "OnStream": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/onstream.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Large catalogue of HD movies and TV shows",
+            "Subtitles support for over 25 languages",
+            "Trending content from various genres",
+            "User-friendly interface"
+        ],
+        "providers": {
+            "OnStream": {
+                "source": "https://onstream.so/",
+                "version": "1.1.5",
+                "packageName": "com.maertsno.m",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/onstream_onstream.apk",
+                "safe": true,
+                "sha256": "afdb68ef08519c2b1fd44f1c522869f1177b8f7482157ae1076af50078b083ff"
+            }
+        }
+    },
+    "Telegram": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/telegram.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "No ads",
+            "Proxy and VPN Support",
+            "Customization and Additional Options",
+            "Internationalization and Translation",
+            "Enhanced User Interaction and Messaging Features"
+        ],
+        "providers": {
+            "NekoX": {
+                "source": "https://github.com/NekoX-Dev/NekoX",
+                "version": "9.5.8",
+                "packageName": "nekox.messenger",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/telegram_nekox.apk",
+                "safe": true,
+                "sha256": "22badbc3d0659f36d98ce16654638cd7b3754aa09fbd898f69d610fa63a2cbba"
+            },
+            "Forkgram": {
+                "source": "https://github.com/forkgram/TelegramAndroid",
+                "version": "12.0.2.0",
+                "packageName": "org.forkclient.messenger.beta",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/telegram_forkgram.apk",
+                "safe": true,
+                "sha256": "cfa44a7fe85739b9e0d33be0990c5d521b7cb63b6521353c230ff9b14ef8d099"
+            }
+        }
+    },
+    "Showly": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/showly.png",
+        "depends": [],
+        "complements": [
+            "HDO",
+            "OnStream"
+        ],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/showly.html",
+                "version": "3.51.1",
+                "packageName": "com.michaldrabik.showly2",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/showly_modyolo.apk",
+                "safe": false,
+                "sha256": "03a2fb9f1b96c50c821249300e39fd726b6b121ae63be7092a1ee6844974a8ac"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/showly.html",
+                "version": "3.52.0",
+                "packageName": "com.michaldrabik.showly2",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/showly_liteapks.apk",
+                "safe": false,
+                "sha256": "f4482ba18fd53ec077aa4d6f4d34e4b241db5945345514d5d8b950a243438ba1"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/showly.html",
+                "version": "3.43.0",
+                "packageName": "com.michaldrabik.showly2",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/showly_modzoco.apk",
+                "safe": true,
+                "sha256": "2e350156fde89c8451b470a8ea14fc66317c8c1156005d634e6d48ba6e49a9c9"
+            }
+        }
+    },
+    "CamScanner": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/camscanner.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/camscanner.html",
+                "version": "7.3.0.2509220000",
+                "packageName": "com.intsig.camscanner",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/camscanner_modyolo.apk",
+                "safe": true,
+                "sha256": "e450b824fd99b62a4a0c5e2cfb54dd01937579ef6bec4269e0b1554c3b446c17"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/camscanner.html",
+                "version": "7.3.1.2509240000",
+                "packageName": "com.intsig.camscanner",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/camscanner_liteapks.apk",
+                "safe": false,
+                "sha256": "6b43565d65d001345f5ab786d785a971cd9c9dc4c83575b12e9bd7062f4499c2"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/camscanner/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/camscanner_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/camscanner.html",
+                "version": "6.80.0.2501070000",
+                "packageName": "com.intsig.camscanner",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/camscanner_modzoco.apk",
+                "safe": true,
+                "sha256": "5038f2618622a21be444a4920695202aad350fa2900c62f37891ce73d53ffe0e"
+            }
+        }
+    },
+    "App Cloner": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/app_cloner.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "LITEAPKS": {
+                "source": "https://liteapks.com/app-cloner.html",
+                "version": "2.18.2",
+                "packageName": "com.applisto.appcloner",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/appcloner_liteapks.apk",
+                "safe": true,
+                "sha256": "89f60a2ffbbea44a3d683bda5065b69fc2bd649f01f636101e02d9ed42e51070"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/app-cloner-mod-apk/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/appcloner_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            }
+        }
+    },
+    "AdGuard": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/adguard.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/adguard.html",
+                "version": "4.13.12",
+                "packageName": "com.adguard.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/adguard_modyolo.apk",
+                "safe": false,
+                "sha256": "69e1d844039ec6105abd4a10a9ae0cc33cfda4f6897d83ec23fe8688ea2a99fc"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/adguard-2.html",
+                "version": "4.13.12",
+                "packageName": "com.adguard.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/adguard_liteapks.apk",
+                "safe": false,
+                "sha256": "e62916f335222b723da0a3711a9c11ee454ba9daf828be18f6a0d7ce62a0ccd8"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/adguard-premium/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/adguard_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/adguard.html",
+                "version": "4.8.6",
+                "packageName": "com.adguard.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/adguard_modzoco.apk",
+                "safe": true,
+                "sha256": "8c06c2f29560989eb720bf568f65754c05af09d5a10ff27c61e5cb278068dc44"
+            }
+        }
+    },
+    "Picsart": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/picsart.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/picsart-studio-1.html",
+                "version": "28.5.4",
+                "packageName": "com.picsart.studio",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/picsart_modyolo.apk",
+                "safe": true,
+                "sha256": "2d4197fd4ba4275c7d48c168e256f37e405a87403cad1c91b00d63d4c7fdc4fe"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/picsart-2.html",
+                "version": "28.5.4",
+                "packageName": "com.picsart.studio",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/picsart_liteapks.apk",
+                "safe": true,
+                "sha256": "f70e87b0019d28fcdcd9a655129da5c24ddac920be33ed2795a74e0cb65cd71c"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/picsart-app/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/picsart_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            }
+        }
+    },
+    "Fitify": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/fitify.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/fitify-workout-routines-training-plans.html",
+                "version": "1.110.1",
+                "packageName": "com.fitifyworkouts.bodyweight.workoutapp",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/fitify_modyolo.apk",
+                "safe": true,
+                "sha256": "c937a598b0bdba4e76690f14c68b06e1dab5bba45803fb18024d013fa2ca4cf6"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/fitify.html",
+                "version": "1.110.1",
+                "packageName": "com.fitifyworkouts.bodyweight.workoutapp",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/fitify_liteapks.apk",
+                "safe": true,
+                "sha256": "2766f5af94759418f6f21d9128bf6c2b818b18e32096f688f496f06dde469694"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/fitify/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/fitify_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            }
+        }
+    },
+    "ENIX": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/enix.png",
+        "depends": [],
+        "complements": [
+            "Niagara Launcher",
+            "Smart Launcher 6",
+            "Lawnchair"
+        ],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/enix-icon-pack.html",
+                "version": "5.0",
+                "packageName": "com.lknninex.enix",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/enix_modyolo.apk",
+                "safe": false,
+                "sha256": "47de6897afed1d1fd24783d3384a3bc858f0905a395bf14dae85e45571f0b46e"
+            }
+        }
+    },
+    "WPS Office": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/wps_office.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/wps-office-pdf-word-excel-ppt.html",
+                "version": "18.21.1",
+                "packageName": "cn.wps.moffice_eng",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/wpsoffice_modyolo.apk",
+                "safe": false,
+                "sha256": "5c638746ff2a090a2d6fe48fcd884198b3582dac557dc298020e47c76b7e4dcf"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/wps-office.html",
+                "version": "18.21.1",
+                "packageName": "cn.wps.moffice_eng",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/wpsoffice_liteapks.apk",
+                "safe": false,
+                "sha256": "61c07e3a9a9528e448b8f6a5a8870734de3ec8c7819d403552f9f046e6539252"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/wps-office.html",
+                "version": "18.15",
+                "packageName": "cn.wps.moffice_eng",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/wpsoffice_modzoco.apk",
+                "safe": false,
+                "sha256": "bd831662a4a9dce5a8ace9e34a39f3e80fc6caddd86fed07a395789fee4641a7"
+            }
+        }
+    },
+    "X-plore File Manager": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/x-plore_file_manager.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/x-plore-file-manager.html",
+                "version": "4.44.20",
+                "packageName": "com.lonelycatgames.Xplore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xplorefilemanager_modyolo.apk",
+                "safe": false,
+                "sha256": "ee530ccb6165ba47fe908d8452f7aab306832b377c709ee214591c5a041f6080"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/x-plore-file-manager-2.html",
+                "version": "4.44.20",
+                "packageName": "com.lonelycatgames.Xplore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xplorefilemanager_liteapks.apk",
+                "safe": false,
+                "sha256": "06e9e46d421a3569c0429b9083e38dba5c4496aad34db606fca6ec909cbaacbc"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/x-plore-file-manager/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xplorefilemanager_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/x-plore-file-manager.html",
+                "version": "4.40.11",
+                "packageName": "com.lonelycatgames.Xplore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xplorefilemanager_modzoco.apk",
+                "safe": false,
+                "sha256": "8d90b5a14a60a5b8c5af7fcff5c9464ef4d1a383047065300570c284ded5baea"
+            }
+        }
+    },
+    "Truecaller": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/truecaller.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/truecaller-caller-id-block.html",
+                "version": "15.32.6",
+                "packageName": "com.truecaller",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/truecaller_modyolo.apk",
+                "safe": false,
+                "sha256": "18cdb136ad17a0b592ef08cc90112d548cee679f656b8fd280d4e97d9e9b63b3"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/truecaller-app.html",
+                "version": "15.34.6",
+                "packageName": "com.truecaller",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/truecaller_liteapks.apk",
+                "safe": false,
+                "sha256": "52a996020597c140b7f73ec2380c389c26faf0255e72606bb77d94d9f109b49d"
+            }
+        }
+    },
+    "Lightroom": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/adobe_lightroom.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
+                "version": "10.0.2",
+                "packageName": "com.adobe.lrmobile",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/lightroom_revanced.apk",
+                "safe": true,
+                "sha256": "8849263a03aca4c725107eaad7f1e5880b6e7a4f121fcda6da2974beb2b51e73"
+            },
+            "MODYOLO": {
+                "source": "https://modyolo.com/adobe-lightroom.html",
+                "version": "10.5.2",
+                "packageName": "com.adobe.lrmobile",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/lightroom_modyolo.apk",
+                "safe": false,
+                "sha256": "a52fee0a397e623f7a551d159029eac0ceb21e1c415d348713222564465d1153"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/adobe-lightroom-2.html",
+                "version": "10.5.3",
+                "packageName": "com.adobe.lrmobile",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/lightroom_liteapks.apk",
+                "safe": false,
+                "sha256": "10738a10671e8b524fa63fb3a54e29e2fc0fafc1bf061410864646d7f010df26"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/adobe-lightroom/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/lightroom_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/adobe-lightroom.html",
+                "version": "10.1.0",
+                "packageName": "com.adobe.lrmobile",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/lightroom_modzoco.apk",
+                "safe": false,
+                "sha256": "b879ee41af741bfc1e1d15432943a1fdebb5c1a24de258eb1856d9057ee0d5ed"
+            }
+        }
+    },
+    "Shazam": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/shazam.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/shazam.html",
+                "version": "16.13.0-251003",
+                "packageName": "com.shazam.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/shazam_modyolo.apk",
+                "safe": false,
+                "sha256": "b52820d29f283b4cfe7b24cbd7772187a13058c47e6bbd6e3d7d951e2a04ebbe"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/shazam.html",
+                "version": "16.13.0-251003",
+                "packageName": "com.shazam.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/shazam_liteapks.apk",
+                "safe": false,
+                "sha256": "a070a886017d2b497e0f2aff1f1051c37c54591edc593ae660638cce7ee5bbcb"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/shazam/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/shazam_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/shazam.html",
+                "version": "15.4.1-241210",
+                "packageName": "com.shazam.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/shazam_modzoco.apk",
+                "safe": true,
+                "sha256": "cf3a387101549c6ea65510307028d17ceb07a31f6e61bd676eed898b7d149654"
+            }
+        }
+    },
+    "Duolingo": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/duolingo.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked",
+            "Lite",
+            "Optimized Size"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/duolingo.html",
+                "version": "6.50.2",
+                "packageName": "com.duolingo",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/duolingo_modyolo.apk",
+                "safe": false,
+                "sha256": "f50b6b9e76ab376d6745e7a422fc78eb56cf8d56accfc94202f6c23a741faa51"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/duolingo.html",
+                "version": "6.51.4",
+                "packageName": "com.duolingo",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/duolingo_liteapks.apk",
+                "safe": false,
+                "sha256": "524a06a6e2e6be11a01a5d4eee7c81617953319ced1b1c4fdcfae23528049c04"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/duolingo/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/duolingo_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/duolingo.html",
+                "version": "6.13.5",
+                "packageName": "com.duolingo",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/duolingo_modzoco.apk",
+                "safe": true,
+                "sha256": "7cc635e8e7d3328ffd27933e5be233df11f967cefb9a4917e9f8bfe3a4bf2df2"
+            }
+        }
+    },
+    "MX Player": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/mx_player.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Gold Subscription Unlocked",
+            "Ad-free"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/mx-video-player.html",
+                "version": "1.95.0",
+                "packageName": "com.mx.plus",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/mxplayer_modyolo.apk",
+                "safe": true,
+                "sha256": "51d48e7b05603c201f3c79c8c387270b0b46ce62a1abad34b46ac9d6693e58ea"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/mx-player.html",
+                "version": "2.1.1",
+                "packageName": "com.mxtech.videoplayer.pro",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/mxplayer_liteapks.apk",
+                "safe": false,
+                "sha256": "4cd0186ee5a2bd0068a4d21fac4a79dd8bd085856fa27d1b351b20601f822239"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/mx-player/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/mxplayer_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/mx-player-pro.html",
+                "version": "1.86.0",
+                "packageName": "com.mxtech.videoplayer.pro",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/mxplayer_modzoco.apk",
+                "safe": true,
+                "sha256": "8de2d41adaa04d39d18d7d806a831914ebd85472d0f5c1a82658d301eb54576a"
+            }
+        }
+    },
+    "SNOW": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/snow.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/snow-storm-superhero.html",
+                "version": "14.2.2",
+                "packageName": "com.campmobile.snow",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/snow_modyolo.apk",
+                "safe": false,
+                "sha256": "4420807351c1a121cd0833271afca3f69cc1d321ae5b553dd2e08384a8321e24"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/snow.html",
+                "version": "14.2.2",
+                "packageName": "com.campmobile.snow",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/snow_liteapks.apk",
+                "safe": true,
+                "sha256": "673a4cf4831d5e572111afd53b0aabde41fd65f070696bd22e3d3a41f1135590"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/snow/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/snow_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/snow.html",
+                "version": "13.6.11",
+                "packageName": "com.campmobile.snow",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/snow_modzoco.apk",
+                "safe": false,
+                "sha256": "c781d872c98440e954afc037420e59e7c93844233bbc48c4b23c304f21dabe97"
+            }
+        }
+    },
+    "SD Maid Pro": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/sd_maid_pro.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/sd-maid-pro.html",
+                "version": "5.6.1",
+                "packageName": "eu.thedarken.sdm",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/sdmaidpro_modyolo.apk",
+                "safe": false,
+                "sha256": "b50a3a75e57ba6d33c39edce6bb150d2152f52b3558c962f878b0c4d82ff2d37"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/sd-maid-pro.html",
+                "version": "5.6.3",
+                "packageName": "eu.thedarken.sdm",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/sdmaidpro_liteapks.apk",
+                "safe": false,
+                "sha256": "142796598e1764d8d04a87659568e8367b33aae07c9586bd1459a632b79db143"
+            }
+        }
+    },
+    "SD Maid SE": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/sd_maid_se.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "LITEAPKS": {
+                "source": "https://liteapks.com/sd-maid-2-se-system-cleaner.html",
+                "version": "1.5.1-rc0",
+                "packageName": "eu.darken.sdmse",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/sdmaidse_liteapks.apk",
+                "safe": false,
+                "sha256": "083ea9265b06211b5e88a7540ff8bebfbc624a0eb8823bde42e2c61569eeec35"
+            }
+        }
+    },
+    "1DM+": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/1dm+.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Full Version",
+            "Patched"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/1dm.html",
+                "version": "18.2",
+                "packageName": "idm.internet.download.manager.plus",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/onedm_modyolo.apk",
+                "safe": false,
+                "sha256": "6d334697c976990e2ad208774a5768c5914a92d37bd7354f497c79ea14b37b47"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/1dm-browser-downloader.html",
+                "version": "18.2",
+                "packageName": "idm.internet.download.manager.plus",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/onedm_liteapks.apk",
+                "safe": true,
+                "sha256": "ddb5f9f83a1953a1e565d8607baa5ebe04da4816908ad72fc40fc1124fa510b8"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/idm-music-video-torrent-downloader/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/onedm_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/1dm.html",
+                "version": "17.2",
+                "packageName": "idm.internet.download.manager.plus",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/onedm_modzoco.apk",
+                "safe": true,
+                "sha256": "8ce661247f709238556ba3c238f99894a9b2db0ff10142512c19f095f6b99b1e"
+            }
+        }
+    },
+    "My Diary": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/my_diary.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/my-diary.html",
+                "version": "1.04.01.0928",
+                "packageName": "mydiary.journal.diary.diarywithlock.diaryjournal.secretdiary",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/mydiary_modyolo.apk",
+                "safe": false,
+                "sha256": "ecb864c245c064b224515c52168f929be30139640d6cea967275f53722506212"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/my-diary/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/mydiary_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/my-diary.html",
+                "version": "1.03.77.1205",
+                "packageName": "mydiary.journal.diary.diarywithlock.diaryjournal.secretdiary",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/mydiary_modzoco.apk",
+                "safe": false,
+                "sha256": "614129dbb9f4cc4825449f22f2d2331231f7a3dda38bd8ced1fcd72241aee74c"
+            }
+        }
+    },
+    "nzb360": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/nzb360.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked",
+            "No ads"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/nzb360.html",
+                "version": "22.0.1",
+                "packageName": "com.kevinforeman.nzb360",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/nzb360_modyolo.apk",
+                "safe": false,
+                "sha256": "62bf4887b836a5fca5ce9cced77cbd42a86e1894dbe1acb99774f2ce5516d786"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/nzb360.html",
+                "version": "22.3",
+                "packageName": "com.kevinforeman.nzb360",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/nzb360_liteapks.apk",
+                "safe": false,
+                "sha256": "e0369a3785ae68060879ed064f513dad1341ab4e0d8d9786693f64d1601cba74"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/nzb360/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/nzb360_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            }
+        }
+    },
+    "Nova Launcher": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/nova_launcher.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/nova-launcher-prime.html",
+                "version": "8.1.1",
+                "packageName": "com.teslacoilsw.launcher",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/novalauncher_modyolo.apk",
+                "safe": true,
+                "sha256": "a98943ab4f6d7a014059a78061d5f8cc383e44c40a88fa15bfd2e10325868976"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/nova-launcher-prime.html",
+                "version": "8.1.1",
+                "packageName": "com.teslacoilsw.launcher",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/novalauncher_liteapks.apk",
+                "safe": true,
+                "sha256": "cef82342f50055543d6fc88957cdcbb638e00b04586609dc85ec1f83d9bacc98"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/nova-launcher-prime-apk/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/novalauncher_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/nova-launcher-prime.html",
+                "version": "8.0.13",
+                "packageName": "com.teslacoilsw.launcher",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/novalauncher_modzoco.apk",
+                "safe": false,
+                "sha256": "03f46627d62f2118376986818d01726b7a93a2fe6afdc1f80e25cfb3df7ce5d2"
+            }
+        }
+    },
+    "Waze": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/waze.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/waze.html",
+                "version": "5.11.5.0",
+                "packageName": "com.waze",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/waze_modyolo.apk",
+                "safe": true,
+                "sha256": "8a195a8e15412cb9610b71bf2b890552e54e47321891d55554f583ee565a9ab4"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/waze.html",
+                "version": "5.12.0.0 chuppito release",
+                "packageName": "com.waze",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/waze_liteapks.apk",
+                "safe": false,
+                "sha256": "5f7455e3ffb1f503cc4249552fe644f49737bda7be99507ebfa8fbd516168eb1"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/waze.html",
+                "version": "5.3.0.0 chuppito release",
+                "packageName": "com.waze",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/waze_modzoco.apk",
+                "safe": false,
+                "sha256": "4583056db9a6e86805c61b0b951eb95228459b7b6b51c70b0dc4a85e6505d721"
+            }
+        }
+    },
+    "ES File Explorer": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/es_file_manager.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/esx-file-manager-explorer.html",
+                "version": "4.4.3.3",
+                "packageName": "com.estrongs.android.pop",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/esfileexplorer_modyolo.apk",
+                "safe": true,
+                "sha256": "e6a5fb55ff3ffe129de6b0d357a13b4958d0cb7c7d35128eef06c1a793dff4ac"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/es-file-explorer.html",
+                "version": "4.4.3.3",
+                "packageName": "com.estrongs.android.pop",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/esfileexplorer_liteapks.apk",
+                "safe": true,
+                "sha256": "55823aa3c1f7fc9fac3955029a3942363be6449a7d0ccc0c90c00e0e1f8e476c"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/es-file-explorer-manager-pro/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/esfileexplorer_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/es-file-explorer.html",
+                "version": "4.4.2.17",
+                "packageName": "com.estrongs.android.pop",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/esfileexplorer_modzoco.apk",
+                "safe": false,
+                "sha256": "3bcdb830247a0a9e73a6c619aa8d1e5dd656393e53d9b5b59cebe75bb8b578c6"
+            }
+        }
+    },
+    "Friendly For Twitter/X": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/FriendlyForTwitterX.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/friendly-for-twitter.html",
+                "version": "4.5.0",
+                "packageName": "io.friendly.twitter",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/friendlyfortwitterx_modyolo.apk",
+                "safe": true,
+                "sha256": "732423a3fbb8c1b99b0626d9c1ece6a484472add243d97b0bd6bb8030d01ae63"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/friendly-for-twitter.html",
+                "version": "4.5.0",
+                "packageName": "io.friendly.twitter",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/friendlyfortwitterx_liteapks.apk",
+                "safe": true,
+                "sha256": "60f1638eac1a93909c10a658a242e4b266f0ec052ef5e40b1d2ec6c50f8af37c"
+            }
+        }
+    },
+    "Snapchat": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/Snapchat.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Secret Screenshot",
+            "Secret Screen Record",
+            "Hide view snap",
+            "Hide read messages",
+            "Secret typing",
+            "Hide online status"
+        ],
+        "providers": {
+            "FouadMODS": {
+                "source": "https://fmmods.com/fouad-snapchat/",
+                "version": "13.27.0.42",
+                "packageName": "com.snapchat.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/snapchat_fouadmods.apk",
+                "safe": true,
+                "sha256": "6723554f064758565512a5458db220143a369ac6b79591ecc7b9404c2e2695eb"
+            }
+        }
+    },
+    "Facebook": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/facebook.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Hide story ads"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
+                "version": "490.0.0.63.82",
+                "packageName": "com.facebook.katana",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/facebook_revanced.apk",
+                "safe": true,
+                "sha256": "7e0b1c94a846951a26399d763dde507ff1bb56e40df745db8b7a70be632fed81"
+            }
+        }
+    },
+    "Messenger": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/messenger.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Disable switching emoji to sticker",
+            "Disable typing indicator",
+            "Hide inbox ads",
+            "Hide inbox subtabs"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root",
+                "version": "528.0.0.62.107",
+                "packageName": "com.facebook.orca",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/messenger_revanced.apk",
+                "safe": true,
+                "sha256": "036394f6119c27216d264e553860aa966f41eee3abba635a6d45d6fc364aeb9b"
+            }
+        }
+    },
+    "X": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/x.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Hide view count",
+            "Dynamic color",
+            "Hide recommended users",
+            "Hide ads",
+            "Sanitize sharing links",
+            "Open links with app chooser",
+            "Unlock downloads"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root/",
+                "version": "11.22.0-release.0",
+                "packageName": "com.twitter.android",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/x_revanced.apk",
+                "safe": true,
+                "sha256": "be7c3433a75b1b573f5ef4aa9ba4c292952f672c908292ada9e3741cc283dd18"
+            }
+        }
+    },
+    "RAR": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/rar.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Hide purchase reminder"
+        ],
+        "providers": {
+            "ReVanced": {
+                "source": "https://github.com/FiorenMas/Revanced-And-Revanced-Extended-Non-Root/",
+                "version": "7.11.build127",
+                "packageName": "com.rarlab.rar",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/rar_revanced.apk",
+                "safe": true,
+                "sha256": "91846f2cf0ce9103a3a2c37c626d903d161535bbd94bfe5322b8d24cee77521f"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/rar.html",
+                "version": "7.00.build122",
+                "packageName": "com.rarlab.rar",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/rar_modzoco.apk",
+                "safe": true,
+                "sha256": "805536d161cc4ba0777d15a54941b6ff60071d11df4234f428e1834f48a777c2"
+            }
+        }
+    },
+    "Secure VPN": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/securevpn.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "VIP Features Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/secure-vpn.html",
+                "version": "4.3.9",
+                "packageName": "com.fast.free.unblock.secure.vpn",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/securevpn_modyolo.apk",
+                "safe": true,
+                "sha256": "9a48127f9b76637161b1d3c788d2b0db4c1b8f295d75c49badb07e7b15aaaabc"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/secure-vpn.html",
+                "version": "4.3.9",
+                "packageName": "com.fast.free.unblock.secure.vpn",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/securevpn_liteapks.apk",
+                "safe": false,
+                "sha256": "87358c6645bf8e18ad1226594bb94b7097172bfe0f9f154272a774eeec0da63d"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/secure-vpn-apk",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/securevpn_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/secure-vpn.html",
+                "version": "4.2.12",
+                "packageName": "com.fast.free.unblock.secure.vpn",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/securevpn_modzoco.apk",
+                "safe": false,
+                "sha256": "ae4a475470a0dda1acc068ab3fd5fe02cf9d758a11e42f13854fb9b91eaeacfc"
+            }
+        }
+    },
+    "KineMaster": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/kinemaster.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Ads/Services, Analytics Disabled",
+            "Pro/Premium Version Unlocked",
+            "Full Subscription Unlocked",
+            "Full Shop/Assets Access Unlocked, Free Buy",
+            "No Watermark, 4K Export Support",
+            "All Functions Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/kinemaster-pro.html",
+                "version": "7.8.2.35358.GP",
+                "packageName": "com.nexstreaming.app.kinemasterfree",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/kinemaster_modyolo.apk",
+                "safe": false,
+                "sha256": "cf2257c8ff041f36389438679d7e2b525d5531ef930f1b2bea9429f4c4ff7574"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/kinemaster-app.html",
+                "version": "7.8.5.35422.GP",
+                "packageName": "com.nexstreaming.app.kinemasterfree",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/kinemaster_liteapks.apk",
+                "safe": true,
+                "sha256": "39e0fc3a4ec421c8576ff706bb714193aefd8b30c860397ef7613755fb8550d3"
+            }
+        }
+    },
+    "XY VPN": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/xyvpn.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "VIP Features Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/xy-vpn.html",
+                "version": "5.1.123",
+                "packageName": "com.mate.vpn",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xyvpn_modyolo.apk",
+                "safe": false,
+                "sha256": "991732f8a45881fb99e0bab763293a3735b5a4d54ca0bbeb5d1e602b351608c4"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/xy-vpn-2.html",
+                "version": "5.1.123",
+                "packageName": "com.mate.vpn",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xyvpn_liteapks.apk",
+                "safe": false,
+                "sha256": "061c8de33fb9d0161323700a4472c1b37c32700da8f8d504cdb46b65eaf2b898"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/xy-vpn",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xyvpn_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/xy-vpn.html",
+                "version": "4.9.211",
+                "packageName": "com.mate.vpn",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/xyvpn_modzoco.apk",
+                "safe": false,
+                "sha256": "4499af46091cabbc72e47589500eb6f727e66e34076a862bdded569827d6a053"
+            }
+        }
+    },
+    "TickTick": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/ticktick.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Premium Unlocked"
+        ],
+        "providers": {
+            "LITEAPKS": {
+                "source": "https://liteapks.com/ticktick.html",
+                "version": "7.6.9.1",
+                "packageName": "com.ticktick.task",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/ticktick_liteapks.apk",
+                "safe": false,
+                "sha256": "607a1f6ca407e634ad8af3831bd0eb1cf642d18b70beac373dcdf50afe389bf2"
+            },
+            "MODYOLO": {
+                "source": "https://modyolo.com/ticktick.html",
+                "version": "7.6.9.1",
+                "packageName": "com.ticktick.task",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/ticktick_modyolo.apk",
+                "safe": true,
+                "sha256": "c316130dd376cb721b5541e0fb01ff3546399cb33be17d3f6115861f5620a268"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/ticktick/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/ticktick_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/ticktick.html",
+                "version": "7.4.6.0",
+                "packageName": "com.ticktick.task",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/ticktick_modzoco.apk",
+                "safe": true,
+                "sha256": "ce03fc487540b8b1601be89f4458b81bd65248f826ec83721883dcc3f90b0e08"
+            }
+        }
+    },
+    "Photomath": {
+        "icon": "https://raw.githubusercontent.com/anfreire/updateMe-Data/main/icons/photomath.png",
+        "depends": [],
+        "complements": [],
+        "features": [
+            "Plus Unlocked"
+        ],
+        "providers": {
+            "MODYOLO": {
+                "source": "https://modyolo.com/photomath-microblink.html",
+                "version": "8.46.0",
+                "packageName": "com.microblink.photomath",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photomath_modyolo.apk",
+                "safe": true,
+                "sha256": "99477e852f847609fed6ffd7d8970b90e7c9f6c58e8f8cd6c7c7f38ac9ae940d"
+            },
+            "LITEAPKS": {
+                "source": "https://liteapks.com/photomath.html",
+                "version": "8.46.0",
+                "packageName": "com.microblink.photomath",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photomath_liteapks.apk",
+                "safe": true,
+                "sha256": "559c09a2cd0a728dc657a46a65dd0849d5c7300df5f056c4745b85398572c88a"
+            },
+            "APKDONE": {
+                "source": "https://apkdone.com/photomath/",
+                "version": "2.2.2",
+                "packageName": "com.apkdone.appstore",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photomath_apkdone.apk",
+                "safe": false,
+                "sha256": "1e4d083a069a32d1370eedf2fa48430546e41573696b0e43935cd44ae143b4c0"
+            },
+            "MODZOCO": {
+                "source": "https://modzoco.com/photomath.html",
+                "version": "8.40.0",
+                "packageName": "com.microblink.photomath",
+                "download": "https://github.com/anfreire/UpdateMe-Data/releases/download/apps/photomath_modzoco.apk",
+                "safe": true,
+                "sha256": "dd780e3b824da552f4df6b5e3214f4c97389f43ad47b853f7c1d3c9a0bc11de9"
+            }
+        }
+    }
+}
