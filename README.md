@@ -1,91 +1,49 @@
 <div align="center">
 <br />
-<img src="android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="Logo" />
+<img src="app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" alt="Logo" width="96" height="96" />
 </div>
 
-<h1 align="center">Update Me</h1>
+<h1 align="center">UpdateMe</h1>
 
-&nbsp;
+<p align="center">
+An open-source third-party app store and application manager for Android, rewritten in 100% Kotlin with Jetpack Compose and Material Design 3.
+</p>
 
-> [!WARNING]
-> **This repository has been archived and is no longer maintained.**
-> 
-> Development of Update Me has stopped, and the app will no longer receive updates or support. I recommend using [**Obtainium**](https://github.com/ImranR98/Obtainium) as an alternative solution for managing app updates for modded apps and apps outside the Play Store.
+---
 
-&nbsp;
+## Features
 
-<div align="center">
-  <img alt="Android" src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Android/android3.svg"/>
-  <img alt="React Native" src="https://ziadoua.github.io/m3-Markdown-Badges/badges/ReactNative/reactnative2.svg"/>
-  <img alt="Apache" src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Apache/apache2.svg"/>
-</div>
+- **App Catalog & Categories**: Browse apps by categories (Music Streaming, Video Streaming, Social Media, Tools, etc.) with real-time search and filter chips.
+- **Multi-Provider Support**: Choose your preferred source and provider for each app with VirusTotal security badges, source links, package names, and SHA-256 checksums.
+- **Update Detection & Batch Update**: Compare installed package versions on your Android device against the latest provider releases. Update individual apps or tap "Update All".
+- **Download & Package Management**: Download manager with live progress tracking, auto-install option, and complete downloaded file management.
+- **SHA-256 Verifier**: Built-in file hashing utility with document picker and live checksum comparison to verify package integrity.
+- **Tips & Guides**: Step-by-step interactive guides with illustrations and troubleshooting instructions.
+- **Customizable Settings**: Light, Dark, or System Material You dynamic theming, download clean-up rules ("Fresh Start"), ignored apps list ("Update Dodger"), and "Risk Taker" mode.
 
-&nbsp;
+## Architecture & Tech Stack
 
-<div align="center">
- <a href="https://github.com/anfreire/updateMe-Mobile/releases">
-<img src="https://user-images.githubusercontent.com/69304392/148696068-0cfea65d-b18f-4685-82b5-329a330b1c0d.png"
-alt="Get it on GitHub" align="center" height="80" /></a>
- <a href="https://apt.izzysoft.de/packages/com.updateme">
-<img src="https://gitlab.com/IzzyOnDroid/repo/-/raw/master/assets/IzzyOnDroid.png"
-alt="Get it on IzzyOnDroid" align="center" height="80" /></a>
-</div>
+- **Platform**: Android (minSdk 26, targetSdk 35)
+- **Language**: Kotlin 2.1
+- **UI Framework**: Jetpack Compose with Material 3
+- **Asynchronous & Concurrency**: Kotlin Coroutines & StateFlow
+- **Networking**: OkHttp 4
+- **Serialization**: Kotlinx Serialization JSON
+- **Image Loading**: Coil Compose
+- **Build System**: Gradle 9.3.1 (Kotlin DSL) with Android Gradle Plugin 8.8.2
 
-&nbsp;
+## Permissions
 
-<div align="center">
-  <img height="750" alt="Menu" src="https://github.com/anfreire/updateMe-Mobile/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/phoneScreenshot1.jpg?raw=true"/>
-    <img height="750" alt="App" src="https://github.com/anfreire/updateMe-Mobile/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/phoneScreenshot2.jpg?raw=true"/>
-    <img height="750" alt="Settings" src="https://github.com/anfreire/updateMe-Mobile/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/phoneScreenshot3.jpg?raw=true"/>
-    <img height="750" alt="VT" src="https://github.com/anfreire/updateMe-Mobile/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/phoneScreenshot4.jpg?raw=true"/>
-</div>
+| Permission | Description |
+| :--- | :--- |
+| `INTERNET` | Fetches index, categories, tips, and APK downloads from provider endpoints. |
+| `ACCESS_NETWORK_STATE` | Monitors network connectivity for updates and downloads. |
+| `REQUEST_INSTALL_PACKAGES` | Requests package installation for downloaded APKs. |
+| `REQUEST_DELETE_PACKAGES` | Prompts package uninstallation from app details screen. |
+| `QUERY_ALL_PACKAGES` | Queries installed packages to detect current versions and pending updates. |
+| `POST_NOTIFICATIONS` | Sends notifications when app updates are available. |
+| `VIBRATE` | Haptic feedback for notifications. |
 
-&nbsp;
+## License
 
-<h3 align="center">Download and Install Modded Apps</h3>
-<p align="center">Access a wide range of modded apps tailored for Android devices with ease.</p>
-
-<h3 align="center">Multiple Versions and Modders</h3>
-<p align="center">Choose your preferred version and modder from a variety of sources to find the perfect modded app for your needs.</p>
-
-<h3 align="center">Update Notifications</h3>
-<p align="center">Stay informed with notifications when updates are available for your selected apps and providers, ensuring you always have the latest features and improvements</p>
-
-<h3 align="center">Regularly Updated Library</h3>
-<p align="center">Enjoy a constantly refreshed collection of the best and most popular modded apps available online.</p>
-
-<h3 align="center">Troubleshooting and Advice Tips</h3>
-<p align="center">Access troubleshooting and advice tips to help resolve any issues and enhance your app experience.</p>
-
-<h3 align="center">Suggest Apps to be Featured</h3>
-<p align="center">Have the ability to suggest apps to be featured, helping to expand and improve the app library.</p>
-
-<h3 align="center">Styled with Material Design</h3>
-<p align="center">Experience a modern and intuitive design with Material Design, providing a clean and user-friendly interface.</p>
-
-<h3 align="center">Built with React Native</h3>
-<p align="center">Experience a smooth, responsive, and user-friendly interface, thanks to the app being built with React Native.</p>
-
-<h3 align="center">Virus and Security Checks</h3>
-<p align="center">Rest assured that all APKs are thoroughly scanned for viruses and security threats, ensuring safe downloads.</p>
-
-<h3 align="center">Secure and Licensed</h3>
-<p align="center">Licensed under the Apache License 2.0, the app ensures flexibility, security, and reliability for all users.</p>
-
-&nbsp;
-
-<h2 align="center">User Permissions</h2>
-<div align="center">
-
-|                 Permission | Description                                                                                                |
-| -------------------------: | ---------------------------------------------------------------------------------------------------------- |
-|                 `INTERNET` | Allows the app to access the internet to fetch updated app repositories.                                   |
-|     `ACCESS_NETWORK_STATE` | Allows the app to check network connectivity status to determine if it can fetch updated app repositories. |
-| `REQUEST_INSTALL_PACKAGES` | Allows the app to request the installation of downloaded APKs when the user decides to install them.       |
-|  `REQUEST_DELETE_PACKAGES` | Allows the app to request the deletion of downloaded APKs when the user decides to delete them.            |
-|       `QUERY_ALL_PACKAGES` | Allows the app to query all installed packages to verify if the app is installed and up-to-date.           |
-|                  `VIBRATE` | Allows the app to vibrate the device when a notification is received.                                      |
-|       `POST_NOTIFICATIONS` | Allows the app to send notifications to the user when updates are available.                               |
-|   `RECEIVE_BOOT_COMPLETED` | Allows the app to detect when the device is restarted to check for updates in the background.              |
-
-</div>
+Licensed under the Apache License 2.0.

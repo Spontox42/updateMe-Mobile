@@ -1,0 +1,6 @@
+{
+  "name": "UpdateMe",
+  "description": "Third-party app store and updater for Android applications",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
